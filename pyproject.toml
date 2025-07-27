@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lazily-sliced"
+version = "0.1.0a0"
+description = "A memory-efficient Python sequence wrapper that applies slicing operations lazily, deferring data access until elements are actually needed."
+readme = "README.md"
+requires-python = ">=2"
+license = "MIT"
+authors = [
+  { name="Jifeng Wu", email="jifengwu2k@gmail.com" }
+]
+classifiers = [
+    "Programming Language :: Python :: 2",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jifengwu2k/lazily-sliced"
+"Bug Tracker" = "https://github.com/jifengwu2k/lazily-sliced/issues"
